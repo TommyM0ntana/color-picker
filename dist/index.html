@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Editor Master</title>
+  <link rel="stylesheet" href="/dist/d7c0f2bf43e4b5a270f67c1f14bddf40.css">
+<script src="/dist/d7c0f2bf43e4b5a270f67c1f14bddf40.js"></script></head>
+
+<body>
+  <div class="color_picker_dialog" draggable="false">
+    <div class="bottom">
+      <div class="color_preview"></div>
+      <input type="text" onkeyup="changeHex(this.value)" value="#FF0000">
+    </div>
+    <div class="hue_bar">
+      <div class="hue_picker"></div>
+    </div>
+    <div class="sat_rect" id="satrect" draggable="false">
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="sat_picker"></div>
+    </div>
+  </div>
+  <script src="/dist/pixel-editor.js"></script>
+</body>
+
+</html>
